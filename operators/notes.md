@@ -54,3 +54,58 @@ These test if a sequence contains an object:
 These compare the memory location of two objects:
 - `is` (True if both variables point to the same object)
 - `is not` (True if both variables do not point to the same object)
+
+
+
+
+# Operator Precedence in Python
+
+Operator precedence determines the order in which operators are evaluated in an expression. Operators with higher precedence are evaluated before operators with lower precedence. In cases where operators have the same precedence, the associativity (left-to-right or right-to-left) is applied.
+
+## Precedence Levels
+
+1. **Parentheses**: `()` 
+   - Highest precedence. Expressions inside parentheses are evaluated first.
+
+2. **Exponentiation**: `**`
+   - Right-to-left associativity.
+
+3. **Unary Plus and Minus**: `+x`, `-x`
+   - Applies to a single operand.
+
+4. **Multiplication, Division, Floor Division, Modulus**: `*`, `/`, `//`, `%`
+   - Left-to-right associativity.
+
+5. **Addition and Subtraction**: `+`, `-`
+   - Left-to-right associativity.
+
+6. **Bitwise Shift Operators**: `<<`, `>>`
+   - Left-to-right associativity.
+
+7. **Bitwise AND**: `&`
+   - Left-to-right associativity.
+
+8. **Bitwise XOR**: `^`
+   - Left-to-right associativity.
+
+9. **Bitwise OR**: `|`
+   - Left-to-right associativity.
+
+10. **Comparison Operators**: `==`, `!=`, `>`, `<`, `>=`, `<=`
+    - Left-to-right associativity.
+
+11. **Identity Operators**: `is`, `is not`
+    - Left-to-right associativity.
+
+12. **Membership Operators**: `in`, `not in`
+    - Left-to-right associativity.
+
+13. **Logical NOT**: `not`
+    - Highest precedence among logical operators.
+
+14. **Logical AND**: `and`
+    - Lower precedence than `not`.
+
+15. **Logical OR**: `or`
+    - Lowest precedence among logical operators.
+
