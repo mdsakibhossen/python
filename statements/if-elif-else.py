@@ -1,5 +1,5 @@
 # Using 'elif' Statement
-print("1. Using 'elif' Statement")
+print("Using 'elif' Statement")
 
 # Example 1: Determine grade based on score
 print("Example 1: Determine Grade Based on Score")
