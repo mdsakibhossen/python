@@ -128,13 +128,16 @@ Lambda functions are small, anonymous functions defined using the `lambda` keywo
 ```python
 lambda arguments: expression
 ```
+
 ## Example: Basic Lambda Function
+
 ```python
 # A simple lambda function that adds two numbers
 add = lambda x, y: x + y
 result = add(5, 3)
 print(result)  # Output: 8
 ```
+
 ## Using Lambda Functions
 
 Lambda functions can be used with several built-in functions such as `map`, `filter`, `sorted`, and `reduce`.
