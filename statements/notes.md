@@ -79,7 +79,7 @@ When checking for values:
 - **Less Than**: Start from the minimum number and work upwards.
 - **Greater Than**: Start from the maximum number and work downwards.
 
-# Match Statement in Python (Switch-Case Alternative)
+## Match Statement in Python (Switch-Case Alternative)
 
 In Python 3.10 and above, the `match` statement is introduced as an alternative to switch-case statements found in other languages. It allows for pattern matching against values, offering a more readable and flexible approach than multiple `if-elif` conditions.
 
